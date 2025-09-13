@@ -50,7 +50,7 @@ This is an innovative decentralized application (DApp) designed for privacy-prot
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/freedom0010/xtcv2.git
+git clone https://github.com/freedom0010/xtcv3.git
 cd xtcv2
 ```
 
