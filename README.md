@@ -51,7 +51,7 @@ This is an innovative decentralized application (DApp) designed for privacy-prot
 
 ```bash
 git clone https://github.com/freedom0010/xtcv3.git
-cd xtcv2
+cd xtcv3
 ```
 
 ### 2. Install Dependencies
