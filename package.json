@@ -1,0 +1,34 @@
+{
+  "name": "diabetes-fhe-dapp",
+  "version": "1.0.0",
+  "description": "Diabetes Patient Anonymous Statistical Analysis DApp using FHEVM + IPFS + Sepolia",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network sepolia",
+    "test": "hardhat test",
+    "dev": "cd frontend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd frontend && npm start"
+  },
+  "keywords": [
+    "blockchain",
+    "fhevm",
+    "ipfs",
+    "diabetes",
+    "privacy"
+  ],
+  "author": "Web3 Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "eslint-config-next": "^15.5.3",
+    "ethers": "^6.8.0",
+    "next": "^15.5.3"
+  }
+}

@@ -1,0 +1,509 @@
+{
+  "title": "糖尿病患者匿名统计分析 DApp",
+  "subtitle": "隐私保护的糖尿病数据分析平台",
+  "navigation": {
+    "home": "首页",
+    "patient": "患者门户",
+    "researcher": "研究员门户",
+    "survey": "健康问卷",
+    "ipfsDebug": "IPFS 调试"
+  },
+  "buttons": {
+    "connectWallet": "连接钱包",
+    "disconnect": "断开连接",
+    "submit": "提交",
+    "analyze": "分析",
+    "upload": "上传",
+    "download": "下载",
+    "refresh": "刷新",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "close": "关闭"
+  },
+  "wallet": {
+    "connected": "已连接",
+    "notConnected": "未连接",
+    "connecting": "连接中...",
+    "address": "地址",
+    "balance": "余额",
+    "network": "网络",
+    "switchNetwork": "切换到 Sepolia 网络"
+  },
+  "patient": {
+    "title": "患者门户",
+    "subtitle": "安全地提交您的健康数据",
+    "dataSubmission": "数据提交",
+    "myData": "我的数据",
+    "submissionHistory": "提交历史",
+    "dataEncrypted": "您的数据已加密并安全存储",
+    "noData": "尚未提交任何数据",
+    "submitSuccess": "数据提交成功！",
+    "submitError": "数据提交错误"
+  },
+  "researcher": {
+    "title": "研究员门户",
+    "subtitle": "在隐私保护下分析糖尿病数据",
+    "requestAnalysis": "请求分析",
+    "analysisResults": "分析结果",
+    "analysisHistory": "分析历史",
+    "analysisTypes": {
+      "descriptive": "描述性统计",
+      "univariate": "单因素分析",
+      "logistic": "Logistic 回归",
+      "linear": "线性回归",
+      "stratified": "分层分析",
+      "correlation": "相关性分析"
+    },
+    "fee": "分析费用",
+    "requestSuccess": "分析请求成功！",
+    "requestError": "分析请求错误"
+  },
+  "survey": {
+    "title": "糖尿病健康问卷",
+    "subtitle": "请填写此问卷以为糖尿病研究做出贡献",
+    "sections": {
+      "basic": "基本信息",
+      "medical": "病史",
+      "lifestyle": "生活方式",
+      "symptoms": "当前症状"
+    },
+    "fields": {
+      "age": "年龄",
+      "gender": "性别",
+      "height": "身高 (厘米)",
+      "weight": "体重 (公斤)",
+      "bloodGlucose": "血糖水平 (mg/dL)",
+      "diabetesType": "糖尿病类型",
+      "diagnosisYear": "诊断年份",
+      "medication": "当前用药",
+      "exercise": "运动频率",
+      "diet": "饮食类型",
+      "smoking": "吸烟状况",
+      "alcohol": "饮酒情况"
+    },
+    "options": {
+      "male": "男性",
+      "female": "女性",
+      "type1": "1型",
+      "type2": "2型",
+      "gestational": "妊娠期",
+      "prediabetes": "糖尿病前期",
+      "never": "从不",
+      "rarely": "很少",
+      "sometimes": "有时",
+      "often": "经常",
+      "always": "总是"
+    },
+    "validation": {
+      "required": "此字段为必填项",
+      "invalidAge": "请输入有效的年龄",
+      "invalidHeight": "请输入有效的身高",
+      "invalidWeight": "请输入有效的体重",
+      "invalidGlucose": "请输入有效的血糖水平"
+    }
+  },
+  "analytics": {
+    "title": "数据分析",
+    "loading": "正在加载分析...",
+    "noData": "没有可用于分析的数据",
+    "charts": {
+      "bloodGlucoseDistribution": "血糖分布",
+      "ageDistribution": "年龄分布",
+      "genderDistribution": "性别分布",
+      "diabetesTypeDistribution": "糖尿病类型分布",
+      "correlationMatrix": "相关性矩阵"
+    },
+    "statistics": {
+      "mean": "平均值",
+      "median": "中位数",
+      "standardDeviation": "标准差",
+      "minimum": "最小值",
+      "maximum": "最大值",
+      "count": "计数",
+      "percentage": "百分比"
+    }
+  },
+  "ipfs": {
+    "title": "IPFS 存储状态",
+    "status": "状态",
+    "connected": "已连接",
+    "disconnected": "已断开",
+    "uploading": "上传中...",
+    "uploaded": "已上传",
+    "error": "错误",
+    "cid": "内容标识符 (CID)",
+    "size": "文件大小",
+    "gateway": "网关 URL",
+    "testUpload": "测试上传",
+    "uploadSuccess": "文件上传成功！",
+    "uploadError": "文件上传错误"
+  },
+  "contract": {
+    "address": "合约地址",
+    "network": "网络",
+    "status": "状态",
+    "connected": "已连接",
+    "disconnected": "已断开",
+    "totalPatients": "总患者数",
+    "totalSubmissions": "总提交数",
+    "totalAnalyses": "总分析数"
+  },
+  "privacy": {
+    "title": "隐私保护",
+    "description": "您的数据使用先进的加密技术保护",
+    "features": {
+      "encryption": "同态加密",
+      "anonymization": "数据匿名化",
+      "decentralization": "去中心化存储",
+      "immutability": "区块链不可篡改"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 糖尿病分析 DApp. 保留所有权利。",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "contact": "联系我们"
+  },
+  "errors": {
+    "walletNotConnected": "请先连接您的钱包",
+    "networkError": "网络错误",
+    "contractError": "智能合约错误",
+    "ipfsError": "IPFS 存储错误",
+    "validationError": "请检查您的输入",
+    "unknownError": "发生未知错误"
+  },
+  "success": {
+    "dataSubmitted": "数据提交成功！",
+    "analysisRequested": "分析请求成功！",
+    "fileUploaded": "文件上传成功！",
+    "settingsSaved": "设置保存成功！"
+  },
+  "analysisTypes": {
+    "descriptive": {
+      "name": "描述性统计分析",
+      "description": "基本统计指标：均值、标准差、中位数、四分位数等",
+      "estimatedTime": "2-3 分钟"
+    },
+    "univariate": {
+      "name": "单因素分析", 
+      "description": "分析单个变量对血糖控制的影响",
+      "estimatedTime": "3-5 分钟"
+    },
+    "logistic": {
+      "name": "Logistic回归分析",
+      "description": "预测血糖控制达标的影响因素",
+      "estimatedTime": "5-8 分钟"
+    },
+    "linear": {
+      "name": "线性回归分析",
+      "description": "分析连续变量间的线性关系",
+      "estimatedTime": "4-6 分钟"
+    },
+    "stratified": {
+      "name": "分层分析",
+      "description": "按不同特征分组进行对比分析",
+      "estimatedTime": "6-10 分钟"
+    },
+    "correlation": {
+      "name": "相关性分析",
+      "description": "分析各变量间的相关性强度",
+      "estimatedTime": "3-5 分钟"
+    }
+  },
+  "factors": {
+    "age": "年龄",
+    "gender": "性别", 
+    "bloodGlucose": "血糖值",
+    "bmi": "BMI",
+    "diabetesType": "糖尿病类型",
+    "ageGroup": "年龄组",
+    "bmiGroup": "BMI分组",
+    "medication": "用药情况",
+    "exercise": "运动习惯",
+    "medicationCompliance": "用药依从性",
+    "dietControl": "饮食控制",
+    "exerciseFrequency": "运动频率",
+    "ageBloodGlucose": "年龄与血糖",
+    "bmiBloodGlucose": "BMI与血糖",
+    "diseaseBloodGlucose": "病程与血糖",
+    "hba1cBloodGlucose": "HbA1c与血糖",
+    "dosageBloodGlucose": "用药剂量与血糖",
+    "genderStrata": "按性别分层",
+    "ageStrata": "按年龄组分层",
+    "diabetesStrata": "按糖尿病类型分层",
+    "bmiStrata": "按BMI分层",
+    "medicationStrata": "按用药方案分层",
+    "ageCorrelation": "年龄相关性",
+    "bmiCorrelation": "BMI相关性",
+    "diseaseCorrelation": "病程相关性",
+    "lifestyleCorrelation": "生活方式相关性",
+    "medicationCorrelation": "用药相关性"
+  },
+  "analysis": {
+    "runAnalysis": "运行分析",
+    "selectFactors": "选择分析因素",
+    "selectedFactors": "已选择 {count} 个因素",
+    "startAnalysis": "开始分析 ({fee} ETH)",
+    "analysisInProgress": "分析进行中",
+    "processingData": "正在处理加密数据，请稍候...",
+    "analysisHistory": "分析历史",
+    "recentRecords": "最近 {count} 条记录",
+    "clearHistory": "清除",
+    "noAnalysisRecords": "暂无分析记录",
+    "analysisFactors": "分析因素",
+    "analysisFee": "分析费用",
+    "basedOnRealData": "基于真实数据的分析结果",
+    "viewResults": "查看",
+    "downloadResults": "下载",
+    "analysisResults": "分析结果",
+    "needAuthorization": "需要授权",
+    "needResearcherAuth": "您需要获得研究员授权才能运行分析",
+    "testModeAuth": "测试模式：已临时授权研究员权限",
+    "noPatientData": "暂无患者数据可供分析",
+    "selectAnalysisType": "请选择分析类型",
+    "selectAtLeastOneFactor": "请至少选择一个分析因素"
+  },
+  "survey": {
+    "title": "健康问卷调查",
+    "diabetesTitle": "糖尿病健康问卷",
+    "subtitle": "帮助我们了解您的健康状况，为医学研究提供宝贵数据",
+    "connectWalletTitle": "健康问卷调查",
+    "connectWalletSubtitle": "请先连接钱包以开始填写健康问卷",
+    "connectWallet": "连接钱包",
+    "systemStatus": "系统状态",
+    "fhevmEncryption": "FHEVM 加密",
+    "ipfsStorage": "IPFS 存储",
+    "connected": "已连接",
+    "simulationMode": "模拟模式",
+    "messages": {
+      "switchToSepolia": "请切换到 Sepolia 测试网",
+      "submittingData": "正在提交调查问卷...",
+      "ipfsUploadFailed": "IPFS上传失败",
+      "dataUploadedToIPFS": "数据已上传到IPFS",
+      "surveySubmitSuccess": "调查问卷提交成功！数据已安全存储到IPFS和区块链",
+      "submitFailed": "提交失败，请重试"
+    }
+  },
+  "diabetesSurvey": {
+    "title": "糖尿病健康问卷",
+    "basicInfo": "基本信息",
+    "diabetesInfo": "糖尿病相关信息",
+    "lifestyle": "生活方式",
+    "treatment": "治疗情况",
+    "other": "其他信息",
+    "fields": {
+      "age": "年龄",
+      "gender": "性别",
+      "height": "身高 (cm)",
+      "weight": "体重 (kg)",
+      "diabetesType": "糖尿病类型",
+      "diagnosisYear": "确诊年份",
+      "bloodSugar": "血糖值 (mmol/L)",
+      "hba1c": "糖化血红蛋白 (%)",
+      "exercise": "运动频率",
+      "diet": "饮食控制",
+      "smoking": "吸烟情况",
+      "alcohol": "饮酒情况",
+      "medication": "目前用药",
+      "insulin": "胰岛素使用",
+      "complications": "并发症",
+      "familyHistory": "家族病史",
+      "notes": "备注信息"
+    },
+    "options": {
+      "gender": {
+        "male": "男",
+        "female": "女",
+        "other": "其他"
+      },
+      "diabetesType": {
+        "none": "无糖尿病",
+        "type1": "1型糖尿病",
+        "type2": "2型糖尿病",
+        "gestational": "妊娠糖尿病",
+        "other": "其他类型"
+      },
+      "exercise": {
+        "never": "从不运动",
+        "rarely": "很少 (每月1-2次)",
+        "sometimes": "偶尔 (每周1-2次)",
+        "often": "经常 (每周3-4次)",
+        "daily": "每天运动"
+      },
+      "diet": {
+        "none": "无控制",
+        "basic": "基本控制",
+        "moderate": "适度控制",
+        "strict": "严格控制"
+      },
+      "smoking": {
+        "never": "从不吸烟",
+        "former": "已戒烟",
+        "current": "目前吸烟"
+      },
+      "alcohol": {
+        "never": "从不饮酒",
+        "rarely": "很少饮酒",
+        "sometimes": "偶尔饮酒",
+        "often": "经常饮酒"
+      },
+      "insulin": {
+        "no": "不使用",
+        "yes": "使用",
+        "considering": "考虑使用"
+      },
+      "familyHistory": {
+        "no": "无",
+        "yes": "有",
+        "unknown": "不清楚"
+      }
+    },
+    "placeholders": {
+      "age": "请输入您的年龄",
+      "height": "请输入您的身高",
+      "weight": "请输入您的体重",
+      "diagnosisYear": "例如：2020",
+      "bloodSugar": "请输入血糖值",
+      "hba1c": "请输入糖化血红蛋白值",
+      "medication": "请列出目前使用的药物",
+      "complications": "请描述任何并发症",
+      "notes": "您想要分享的其他信息"
+    },
+    "validation": {
+      "ageRequired": "请输入年龄",
+      "genderRequired": "请选择性别",
+      "heightRequired": "请输入身高",
+      "weightRequired": "请输入体重",
+      "diabetesTypeRequired": "请选择糖尿病类型",
+      "diagnosisYearRequired": "请输入确诊年份",
+      "bloodSugarRequired": "请输入血糖值",
+      "bloodSugarInvalid": "血糖值不能为负数",
+      "exerciseRequired": "请选择运动频率",
+      "dietRequired": "请选择饮食控制情况",
+      "smokingRequired": "请选择吸烟情况",
+      "alcoholRequired": "请选择饮酒情况",
+      "insulinRequired": "请选择胰岛素使用情况",
+      "familyHistoryRequired": "请选择家族病史情况"
+    },
+    "buttons": {
+      "submit": "提交问卷",
+      "submitting": "提交中..."
+    },
+    "privacy": {
+      "title": "隐私保护",
+      "description": "您的数据将使用FHEVM技术加密，并安全存储在IPFS上。只有授权的研究人员才能访问匿名化的统计结果。"
+    }
+  },
+  "analyticsChart": {
+    "loading": "正在分析真实数据...",
+    "dataSource": "数据来源",
+    "analysisInsights": "分析洞察",
+    "dataSourceInfo": {
+      "participants": "参与患者: {count} 名糖尿病患者",
+      "submissions": "数据提交: {count} 条血糖记录",
+      "timeRange": "数据时间: 2024年1月 - {currentMonth}",
+      "source": "数据来源: 区块链加密存储的匿名化患者数据",
+      "integrity": "数据完整性: 通过 IPFS 分布式存储确保数据不可篡改",
+      "privacy": "隐私保护: 采用同态加密技术保护患者隐私"
+    },
+    "categories": {
+      "noData": "暂无数据",
+      "low": "低血糖 (<70)",
+      "normal": "正常 (70-140)",
+      "high": "高血糖 (>140)",
+      "overall": "整体平均",
+      "hypoglycemia": "低血糖",
+      "hyperglycemia": "高血糖"
+    },
+    "metrics": {
+      "records": "条记录",
+      "average": "平均值",
+      "dailyAverage": "日平均",
+      "morning": "晨起",
+      "evening": "晚间",
+      "latest": "最新",
+      "mean": "平均血糖",
+      "controlRate": "控制率",
+      "people": "人",
+      "correlationCoeff": "相关系数",
+      "pValue": "p值",
+      "significant": "显著",
+      "notSignificant": "不显著",
+      "strongCorrelation": "强相关",
+      "moderateCorrelation": "中等相关",
+      "weakCorrelation": "弱相关",
+      "noCorrelation": "无相关",
+      "positive": "正",
+      "negative": "负"
+    },
+    "factors": {
+      "age": "年龄",
+      "bmi": "BMI",
+      "duration": "病程",
+      "gender": "性别",
+      "diabetesType": "糖尿病类型"
+    },
+    "groups": {
+      "male": "男性",
+      "female": "女性",
+      "unknownGender": "未知性别",
+      "under60": "<60岁",
+      "over60": "≥60岁",
+      "unknownAge": "未知年龄",
+      "type1": "I型",
+      "type2": "II型",
+      "unknownType": "未知类型",
+      "allPatients": "所有患者",
+      "group1": "组1",
+      "group2": "组2"
+    },
+    "stratification": {
+      "byGender": "性别",
+      "byAge": "年龄组",
+      "byDiabetesType": "糖尿病类型",
+      "overallData": "整体数据"
+    },
+    "insights": {
+      "noPatientData": "暂无患者数据，无法进行统计分析",
+      "waitForMoreData": "请等待更多患者提交血糖数据",
+      "basedOnRecords": "基于 {count} 条真实血糖记录的统计分析",
+      "standardDeviation": "标准差 ±{value}，{advice}",
+      "attentionNeeded": "建议关注血糖波动",
+      "normalRange": "血糖波动在正常范围",
+      "normalPercentage": "{percentage}% 的数据在正常范围内",
+      "noDistributionData": "暂无患者数据，无法进行分布分析",
+      "normalBloodSugar": "正常血糖占比 {normal}%，高血糖 {high}%",
+      "hyperglycemiaAttention": "高血糖患者比例需要关注",
+      "goodControl": "血糖控制情况良好",
+      "hypoglycemiaEvents": "低血糖事件 {percentage}%",
+      "insufficientRegressionData": "暂无足够数据进行回归分析",
+      "needMoreDataForModel": "需要更多患者数据来建立预测模型",
+      "trendAnalysis": "基于 {count} 条记录的趋势分析",
+      "showsControlTrend": "数据显示血糖控制趋势",
+      "recommendContinuousMonitoring": "建议持续监测血糖变化",
+      "insufficientLinearData": "暂无足够数据进行线性回归分析",
+      "needMoreDataForFactors": "需要更多患者数据来分析影响因素",
+      "factorAnalysis": "基于 {count} 条记录的因素分析",
+      "identifiedKeyFactors": "识别出影响血糖的关键因素",
+      "recommendTargetedImprovement": "建议针对性改善生活方式",
+      "noStratificationData": "暂无患者数据，无法进行分层分析",
+      "waitForMoreParticipants": "请等待更多患者参与研究",
+      "stratifiedAnalysis": "基于 {count} 名患者的分层分析结果",
+      "differentGroupsAnalysis": "不同群体的血糖控制情况分析",
+      "recommendPersonalizedTreatment": "建议个性化治疗方案",
+      "insufficientCorrelationData": "暂无足够数据进行相关性分析",
+      "needMoreDataForCorrelation": "需要更多患者数据来分析相关性",
+      "correlationAnalysis": "基于 {count} 条记录的相关性分析",
+      "identifiedInfluencingFactors": "识别出血糖相关影响因素",
+      "focusOnHighCorrelation": "建议关注高相关性因素",
+      "analysisFailure": "数据分析失败，请稍后重试",
+      "contactSupport": "如果问题持续，请联系技术支持"
+    },
+    "regressionDetails": "回归系数详情",
+    "coefficientInfo": "β = {beta} (SE = {se})，t = {tValue}，p = {pValue}"
+  }
+}

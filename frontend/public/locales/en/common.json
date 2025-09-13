@@ -1,0 +1,509 @@
+{
+  "title": "Anonymous Diabetes Analytics DApp",
+  "subtitle": "Privacy-preserving diabetes data analysis platform",
+  "navigation": {
+    "home": "Home",
+    "patient": "Patient Portal",
+    "researcher": "Researcher Portal",
+    "survey": "Health Survey",
+    "ipfsDebug": "IPFS Debug"
+  },
+  "buttons": {
+    "connectWallet": "Connect Wallet",
+    "disconnect": "Disconnect",
+    "submit": "Submit",
+    "analyze": "Analyze",
+    "upload": "Upload",
+    "download": "Download",
+    "refresh": "Refresh",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close"
+  },
+  "wallet": {
+    "connected": "Connected",
+    "notConnected": "Not Connected",
+    "connecting": "Connecting...",
+    "address": "Address",
+    "balance": "Balance",
+    "network": "Network",
+    "switchNetwork": "Switch to Sepolia Network"
+  },
+  "patient": {
+    "title": "Patient Portal",
+    "subtitle": "Submit your health data securely",
+    "dataSubmission": "Data Submission",
+    "myData": "My Data",
+    "submissionHistory": "Submission History",
+    "dataEncrypted": "Your data is encrypted and stored securely",
+    "noData": "No data submitted yet",
+    "submitSuccess": "Data submitted successfully!",
+    "submitError": "Error submitting data"
+  },
+  "researcher": {
+    "title": "Researcher Portal",
+    "subtitle": "Analyze diabetes data with privacy protection",
+    "requestAnalysis": "Request Analysis",
+    "analysisResults": "Analysis Results",
+    "analysisHistory": "Analysis History",
+    "analysisTypes": {
+      "descriptive": "Descriptive Statistics",
+      "univariate": "Univariate Analysis",
+      "logistic": "Logistic Regression",
+      "linear": "Linear Regression",
+      "stratified": "Stratified Analysis",
+      "correlation": "Correlation Analysis"
+    },
+    "fee": "Analysis Fee",
+    "requestSuccess": "Analysis requested successfully!",
+    "requestError": "Error requesting analysis"
+  },
+  "survey": {
+    "title": "Diabetes Health Survey",
+    "subtitle": "Please fill out this questionnaire to contribute to diabetes research",
+    "sections": {
+      "basic": "Basic Information",
+      "medical": "Medical History",
+      "lifestyle": "Lifestyle",
+      "symptoms": "Current Symptoms"
+    },
+    "fields": {
+      "age": "Age",
+      "gender": "Gender",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "bloodGlucose": "Blood Glucose Level (mg/dL)",
+      "diabetesType": "Diabetes Type",
+      "diagnosisYear": "Year of Diagnosis",
+      "medication": "Current Medication",
+      "exercise": "Exercise Frequency",
+      "diet": "Diet Type",
+      "smoking": "Smoking Status",
+      "alcohol": "Alcohol Consumption"
+    },
+    "options": {
+      "male": "Male",
+      "female": "Female",
+      "type1": "Type 1",
+      "type2": "Type 2",
+      "gestational": "Gestational",
+      "prediabetes": "Pre-diabetes",
+      "never": "Never",
+      "rarely": "Rarely",
+      "sometimes": "Sometimes",
+      "often": "Often",
+      "always": "Always"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidAge": "Please enter a valid age",
+      "invalidHeight": "Please enter a valid height",
+      "invalidWeight": "Please enter a valid weight",
+      "invalidGlucose": "Please enter a valid blood glucose level"
+    }
+  },
+  "analytics": {
+    "title": "Data Analytics",
+    "loading": "Loading analysis...",
+    "noData": "No data available for analysis",
+    "charts": {
+      "bloodGlucoseDistribution": "Blood Glucose Distribution",
+      "ageDistribution": "Age Distribution",
+      "genderDistribution": "Gender Distribution",
+      "diabetesTypeDistribution": "Diabetes Type Distribution",
+      "correlationMatrix": "Correlation Matrix"
+    },
+    "statistics": {
+      "mean": "Mean",
+      "median": "Median",
+      "standardDeviation": "Standard Deviation",
+      "minimum": "Minimum",
+      "maximum": "Maximum",
+      "count": "Count",
+      "percentage": "Percentage"
+    }
+  },
+  "ipfs": {
+    "title": "IPFS Storage Status",
+    "status": "Status",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "uploading": "Uploading...",
+    "uploaded": "Uploaded",
+    "error": "Error",
+    "cid": "Content ID (CID)",
+    "size": "File Size",
+    "gateway": "Gateway URL",
+    "testUpload": "Test Upload",
+    "uploadSuccess": "File uploaded successfully!",
+    "uploadError": "Error uploading file"
+  },
+  "contract": {
+    "address": "Contract Address",
+    "network": "Network",
+    "status": "Status",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "totalPatients": "Total Patients",
+    "totalSubmissions": "Total Submissions",
+    "totalAnalyses": "Total Analyses"
+  },
+  "privacy": {
+    "title": "Privacy Protection",
+    "description": "Your data is protected using advanced encryption",
+    "features": {
+      "encryption": "Homomorphic Encryption",
+      "anonymization": "Data Anonymization",
+      "decentralization": "Decentralized Storage",
+      "immutability": "Blockchain Immutability"
+    }
+  },
+  "footer": {
+    "copyright": "© 2024 Diabetes Analytics DApp. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "errors": {
+    "walletNotConnected": "Please connect your wallet first",
+    "networkError": "Network error occurred",
+    "contractError": "Smart contract error",
+    "ipfsError": "IPFS storage error",
+    "validationError": "Please check your input",
+    "unknownError": "An unknown error occurred"
+  },
+  "success": {
+    "dataSubmitted": "Data submitted successfully!",
+    "analysisRequested": "Analysis requested successfully!",
+    "fileUploaded": "File uploaded successfully!",
+    "settingsSaved": "Settings saved successfully!"
+  },
+  "analysisTypes": {
+    "descriptive": {
+      "name": "Descriptive Statistical Analysis",
+      "description": "Basic statistical indicators: mean, standard deviation, median, quartiles, etc.",
+      "estimatedTime": "2-3 minutes"
+    },
+    "univariate": {
+      "name": "Univariate Analysis", 
+      "description": "Analyze the impact of single variables on blood glucose control",
+      "estimatedTime": "3-5 minutes"
+    },
+    "logistic": {
+      "name": "Logistic Regression Analysis",
+      "description": "Predict factors affecting blood glucose control achievement",
+      "estimatedTime": "5-8 minutes"
+    },
+    "linear": {
+      "name": "Linear Regression Analysis",
+      "description": "Analyze linear relationships between continuous variables",
+      "estimatedTime": "4-6 minutes"
+    },
+    "stratified": {
+      "name": "Stratified Analysis",
+      "description": "Comparative analysis by different characteristic groups",
+      "estimatedTime": "6-10 minutes"
+    },
+    "correlation": {
+      "name": "Correlation Analysis",
+      "description": "Analyze correlation strength between variables",
+      "estimatedTime": "3-5 minutes"
+    }
+  },
+  "factors": {
+    "age": "Age",
+    "gender": "Gender", 
+    "bloodGlucose": "Blood Glucose",
+    "bmi": "BMI",
+    "diabetesType": "Diabetes Type",
+    "ageGroup": "Age Group",
+    "bmiGroup": "BMI Group",
+    "medication": "Medication",
+    "exercise": "Exercise Habits",
+    "medicationCompliance": "Medication Compliance",
+    "dietControl": "Diet Control",
+    "exerciseFrequency": "Exercise Frequency",
+    "ageBloodGlucose": "Age vs Blood Glucose",
+    "bmiBloodGlucose": "BMI vs Blood Glucose",
+    "diseaseBloodGlucose": "Disease Duration vs Blood Glucose",
+    "hba1cBloodGlucose": "HbA1c vs Blood Glucose",
+    "dosageBloodGlucose": "Medication Dosage vs Blood Glucose",
+    "genderStrata": "Gender Stratification",
+    "ageStrata": "Age Group Stratification",
+    "diabetesStrata": "Diabetes Type Stratification",
+    "bmiStrata": "BMI Stratification",
+    "medicationStrata": "Medication Plan Stratification",
+    "ageCorrelation": "Age Correlation",
+    "bmiCorrelation": "BMI Correlation",
+    "diseaseCorrelation": "Disease Duration Correlation",
+    "lifestyleCorrelation": "Lifestyle Correlation",
+    "medicationCorrelation": "Medication Correlation"
+  },
+  "analysis": {
+    "runAnalysis": "Run Analysis",
+    "selectFactors": "Select Analysis Factors",
+    "selectedFactors": "Selected {count} factors",
+    "startAnalysis": "Start Analysis ({fee} ETH)",
+    "analysisInProgress": "Analysis in Progress",
+    "processingData": "Processing encrypted data, please wait...",
+    "analysisHistory": "Analysis History",
+    "recentRecords": "Recent {count} records",
+    "clearHistory": "Clear",
+    "noAnalysisRecords": "No analysis records",
+    "analysisFactors": "Analysis Factors",
+    "analysisFee": "Analysis Fee",
+    "basedOnRealData": "Based on real data analysis results",
+    "viewResults": "View",
+    "downloadResults": "Download",
+    "analysisResults": "Analysis Results",
+    "needAuthorization": "Authorization Required",
+    "needResearcherAuth": "You need researcher authorization to run analysis",
+    "testModeAuth": "Test mode: Temporarily granted researcher permissions",
+    "noPatientData": "No patient data available for analysis",
+    "selectAnalysisType": "Please select analysis type",
+    "selectAtLeastOneFactor": "Please select at least one analysis factor"
+  },
+  "survey": {
+    "title": "Health Survey",
+    "diabetesTitle": "Diabetes Health Survey",
+    "subtitle": "Help us understand your health condition and provide valuable data for medical research",
+    "connectWalletTitle": "Health Survey",
+    "connectWalletSubtitle": "Please connect your wallet first to start filling out the health survey",
+    "connectWallet": "Connect Wallet",
+    "systemStatus": "System Status",
+    "fhevmEncryption": "FHEVM Encryption",
+    "ipfsStorage": "IPFS Storage",
+    "connected": "Connected",
+    "simulationMode": "Simulation Mode",
+    "messages": {
+      "switchToSepolia": "Please switch to Sepolia testnet",
+      "submittingData": "Submitting survey data...",
+      "ipfsUploadFailed": "IPFS upload failed",
+      "dataUploadedToIPFS": "Data uploaded to IPFS",
+      "surveySubmitSuccess": "Survey submitted successfully! Data has been securely stored to IPFS and blockchain",
+      "submitFailed": "Submission failed, please try again"
+    }
+  },
+  "diabetesSurvey": {
+    "title": "Diabetes Health Survey",
+    "basicInfo": "Basic Information",
+    "diabetesInfo": "Diabetes Information",
+    "lifestyle": "Lifestyle",
+    "treatment": "Treatment",
+    "other": "Other Information",
+    "fields": {
+      "age": "Age",
+      "gender": "Gender",
+      "height": "Height (cm)",
+      "weight": "Weight (kg)",
+      "diabetesType": "Diabetes Type",
+      "diagnosisYear": "Year of Diagnosis",
+      "bloodSugar": "Blood Sugar (mmol/L)",
+      "hba1c": "HbA1c (%)",
+      "exercise": "Exercise Frequency",
+      "diet": "Diet Control",
+      "smoking": "Smoking Status",
+      "alcohol": "Alcohol Consumption",
+      "medication": "Current Medications",
+      "insulin": "Insulin Use",
+      "complications": "Complications",
+      "familyHistory": "Family History",
+      "notes": "Additional Notes"
+    },
+    "options": {
+      "gender": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other"
+      },
+      "diabetesType": {
+        "none": "No Diabetes",
+        "type1": "Type 1 Diabetes",
+        "type2": "Type 2 Diabetes",
+        "gestational": "Gestational Diabetes",
+        "other": "Other Type"
+      },
+      "exercise": {
+        "never": "Never",
+        "rarely": "Rarely (1-2 times/month)",
+        "sometimes": "Sometimes (1-2 times/week)",
+        "often": "Often (3-4 times/week)",
+        "daily": "Daily"
+      },
+      "diet": {
+        "none": "No Control",
+        "basic": "Basic Control",
+        "moderate": "Moderate Control",
+        "strict": "Strict Control"
+      },
+      "smoking": {
+        "never": "Never",
+        "former": "Former Smoker",
+        "current": "Current Smoker"
+      },
+      "alcohol": {
+        "never": "Never",
+        "rarely": "Rarely",
+        "sometimes": "Sometimes",
+        "often": "Often"
+      },
+      "insulin": {
+        "no": "No",
+        "yes": "Yes",
+        "considering": "Considering"
+      },
+      "familyHistory": {
+        "no": "No",
+        "yes": "Yes",
+        "unknown": "Unknown"
+      }
+    },
+    "placeholders": {
+      "age": "Please enter your age",
+      "height": "Please enter your height",
+      "weight": "Please enter your weight",
+      "diagnosisYear": "e.g., 2020",
+      "bloodSugar": "Please enter blood sugar value",
+      "hba1c": "Please enter HbA1c value",
+      "medication": "Please list current medications",
+      "complications": "Please describe any complications",
+      "notes": "Any additional information you'd like to share"
+    },
+    "validation": {
+      "ageRequired": "Please enter your age",
+      "genderRequired": "Please select gender",
+      "heightRequired": "Please enter your height",
+      "weightRequired": "Please enter your weight",
+      "diabetesTypeRequired": "Please select diabetes type",
+      "diagnosisYearRequired": "Please enter year of diagnosis",
+      "bloodSugarRequired": "Please enter blood sugar value",
+      "bloodSugarInvalid": "Blood sugar value cannot be negative",
+      "exerciseRequired": "Please select exercise frequency",
+      "dietRequired": "Please select diet control status",
+      "smokingRequired": "Please select smoking status",
+      "alcoholRequired": "Please select alcohol consumption",
+      "insulinRequired": "Please select insulin use status",
+      "familyHistoryRequired": "Please select family history status"
+    },
+    "buttons": {
+      "submit": "Submit Survey",
+      "submitting": "Submitting..."
+    },
+    "privacy": {
+      "title": "Privacy Protection",
+      "description": "Your data will be encrypted using FHEVM technology and stored securely on IPFS. Only authorized researchers can access anonymized statistical results."
+    }
+  },
+  "analyticsChart": {
+    "loading": "Analyzing real data...",
+    "dataSource": "Data Source",
+    "analysisInsights": "Analysis Insights",
+    "dataSourceInfo": {
+      "participants": "Participating patients: {count} diabetes patients",
+      "submissions": "Data submissions: {count} blood glucose records",
+      "timeRange": "Data period: January 2024 - {currentMonth}",
+      "source": "Data source: Anonymized patient data encrypted and stored on blockchain",
+      "integrity": "Data integrity: Ensured through IPFS distributed storage for tamper-proof data",
+      "privacy": "Privacy protection: Using homomorphic encryption technology to protect patient privacy"
+    },
+    "categories": {
+      "noData": "No Data",
+      "low": "Low (<70)",
+      "normal": "Normal (70-140)",
+      "high": "High (>140)",
+      "overall": "Overall Average",
+      "hypoglycemia": "Hypoglycemia",
+      "hyperglycemia": "Hyperglycemia"
+    },
+    "metrics": {
+      "records": "records",
+      "average": "Average",
+      "dailyAverage": "Daily Average",
+      "morning": "Morning",
+      "evening": "Evening",
+      "latest": "Latest",
+      "mean": "Mean Blood Glucose",
+      "controlRate": "Control Rate",
+      "people": "people",
+      "correlationCoeff": "Correlation Coefficient",
+      "pValue": "p-value",
+      "significant": "Significant",
+      "notSignificant": "Not Significant",
+      "strongCorrelation": "Strong Correlation",
+      "moderateCorrelation": "Moderate Correlation",
+      "weakCorrelation": "Weak Correlation",
+      "noCorrelation": "No Correlation",
+      "positive": "Positive",
+      "negative": "Negative"
+    },
+    "factors": {
+      "age": "Age",
+      "bmi": "BMI",
+      "duration": "Disease Duration",
+      "gender": "Gender",
+      "diabetesType": "Diabetes Type"
+    },
+    "groups": {
+      "male": "Male",
+      "female": "Female",
+      "unknownGender": "Unknown Gender",
+      "under60": "<60 years",
+      "over60": "≥60 years",
+      "unknownAge": "Unknown Age",
+      "type1": "Type 1",
+      "type2": "Type 2",
+      "unknownType": "Unknown Type",
+      "allPatients": "All Patients",
+      "group1": "Group 1",
+      "group2": "Group 2"
+    },
+    "stratification": {
+      "byGender": "Gender",
+      "byAge": "Age Group",
+      "byDiabetesType": "Diabetes Type",
+      "overallData": "Overall Data"
+    },
+    "insights": {
+      "noPatientData": "No patient data available, unable to perform statistical analysis",
+      "waitForMoreData": "Please wait for more patients to submit blood glucose data",
+      "basedOnRecords": "Statistical analysis based on {count} real blood glucose records",
+      "standardDeviation": "Standard deviation ±{value}, {advice}",
+      "attentionNeeded": "recommend monitoring blood glucose fluctuations",
+      "normalRange": "blood glucose fluctuations within normal range",
+      "normalPercentage": "{percentage}% of data within normal range",
+      "noDistributionData": "No patient data available, unable to perform distribution analysis",
+      "normalBloodSugar": "Normal blood glucose {normal}%, hyperglycemia {high}%",
+      "hyperglycemiaAttention": "High proportion of hyperglycemic patients needs attention",
+      "goodControl": "Good blood glucose control",
+      "hypoglycemiaEvents": "Hypoglycemic events {percentage}%",
+      "insufficientRegressionData": "Insufficient data for regression analysis",
+      "needMoreDataForModel": "Need more patient data to build predictive model",
+      "trendAnalysis": "Trend analysis based on {count} records",
+      "showsControlTrend": "Data shows blood glucose control trend",
+      "recommendContinuousMonitoring": "Recommend continuous monitoring of blood glucose changes",
+      "insufficientLinearData": "Insufficient data for linear regression analysis",
+      "needMoreDataForFactors": "Need more patient data to analyze influencing factors",
+      "factorAnalysis": "Factor analysis based on {count} records",
+      "identifiedKeyFactors": "Identified key factors affecting blood glucose",
+      "recommendTargetedImprovement": "Recommend targeted lifestyle improvements",
+      "noStratificationData": "No patient data available, unable to perform stratified analysis",
+      "waitForMoreParticipants": "Please wait for more patients to participate in research",
+      "stratifiedAnalysis": "Stratified analysis results based on {count} patients",
+      "differentGroupsAnalysis": "Analysis of blood glucose control in different groups",
+      "recommendPersonalizedTreatment": "Recommend personalized treatment plans",
+      "insufficientCorrelationData": "Insufficient data for correlation analysis",
+      "needMoreDataForCorrelation": "Need more patient data to analyze correlations",
+      "correlationAnalysis": "Correlation analysis based on {count} records",
+      "identifiedInfluencingFactors": "Identified blood glucose-related influencing factors",
+      "focusOnHighCorrelation": "Recommend focusing on high correlation factors",
+      "analysisFailure": "Data analysis failed, please try again later",
+      "contactSupport": "If the problem persists, please contact technical support"
+    },
+    "regressionDetails": "Regression Coefficient Details",
+    "coefficientInfo": "β = {beta} (SE = {se}), t = {tValue}, p = {pValue}"
+  }
+}
